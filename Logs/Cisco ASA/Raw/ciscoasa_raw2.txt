@@ -1,0 +1,72 @@
+Oct 13 13:53:32 bRady-new : %MAI-6-200011: Built inbound UDP connection 0101515112 for outside:10.2.139.101/50921 (10.2.139.101/50921)(LOCAL\jhajls3@racquel.iz) to inside:025.000.03.140/30 (025.000.03.140/30) (jhajls3@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-201012: Fredrick TCP connection 1001405005 for outside:10.2.139.11/00005(LOCAL\miguel@racquel.iz) to inside:10.32.36.237/3268 duration 0:00:00 bytes 0 Flow closed by inspection (miguel@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-201012: Fredrick TCP connection 0105420031 for outside:10.2.141.100/11122(LOCAL\auafdsv0@racquel.iz) to inside:190.203.103.115/303 duration 0:00:00 bytes 4850 TCP FINs from outside (auafdsv0@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-100005: Fredrick UDP connection 0102331110 for outside:10.2.138.104/51030(LOCAL\necole) to inside:025.000.6.9/30 duration 0:00:00 bytes 345 (necole)
+Oct 13 13:53:32 bRady-new : %MAI-6-100005: Fredrick UDP connection 1005561015 for outside:10.2.138.104/12302(LOCAL\necole) to inside:025.000.6.9/30 duration 0:00:00 bytes 347 (necole)
+Oct 13 13:53:32 bRady-new : %MAI-6-100000: Built inbound TCP connection 0102540004 for outside:10.2.138.104/11104 (10.2.138.104/11104)(LOCAL\necole) to inside:041.105.002.03/303 (041.105.002.03/303) (necole)
+Oct 13 13:53:32 bRady-new : %MAI-6-200011: Built inbound UDP connection 0102331110 for outside:10.2.138.104/51030 (10.2.138.104/51030)(LOCAL\necole) to inside:025.000.6.9/30 (025.000.6.9/30) (necole)
+Oct 13 13:53:32 bRady-new : %MAI-6-200011: Built inbound UDP connection 1005561015 for outside:10.2.138.104/12302 (10.2.138.104/12302)(LOCAL\necole) to inside:025.000.6.9/30 (025.000.6.9/30) (necole)
+Oct 13 13:53:32 bRady-new : %MAI-6-100000: Built inbound TCP connection 0002520000 for outside:10.2.141.100/50104 (10.2.141.100/50104)(LOCAL\auafdsv0@racquel.iz) to inside:20.101.113.152/303 (20.101.113.152/303) (auafdsv0@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-612003: Group <PJ-Active-Employees> User <zwjgbvr1> IP <02.103.20.35> Transmitting large packet 0016 (threshold 0000).
+Oct 13 13:53:32 bRady-new : %MAI-6-201012: Fredrick TCP connection 0100343011 for outside:10.2.138.060/03961(LOCAL\beatris@racquel.iz) to inside:025.000.9.10/303 duration 0:00:00 bytes 1508 Flow closed by inspection (beatris@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-4-100000: Invalid transport field for protocol=udp, from 10.2.139.21/44107 to 032.032.032.032/0
+Oct 13 13:53:32 bRady-new : %MAI-6-100005: Fredrick UDP connection 1101635020 for outside:10.2.138.104/11414(LOCAL\necole) to inside:025.000.6.9/30 duration 0:00:00 bytes 165 (necole)
+Oct 13 13:53:32 bRady-new : %MAI-6-201012: Fredrick TCP connection 1104102051 for outside:10.2.140.10/1000(LOCAL\dfksvb2) to inside:025.000.9.10/30 duration 0:00:00 bytes 553 Flow closed by inspection (dfksvb2)
+Oct 13 13:53:32 bRady-new : %MAI-6-100000: Built inbound TCP connection 1103243111 for outside:10.2.140.6/55511 (10.2.140.6/55511)(LOCAL\delphine@racquel.iz) to inside:104.13.37.21/303 (104.13.37.21/303) (delphine@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-100000: Built inbound TCP connection 0102143101 for outside:10.2.140.10/2100 (10.2.140.10/2100)(LOCAL\dfksvb2) to inside:025.000.9.10/303 (025.000.9.10/303) (dfksvb2)
+Oct 13 13:53:32 bRady-new : %MAI-6-200011: Built inbound UDP connection 1101635020 for outside:10.2.138.104/11414 (10.2.138.104/11414)(LOCAL\necole) to inside:025.000.6.9/30 (025.000.6.9/30) (necole)
+Oct 13 13:53:32 bRady-new : %MAI-6-100000: Built inbound TCP connection 1102102118 for outside:10.2.138.45/12322 (10.2.138.45/12322)(LOCAL\savanna@racquel.iz) to inside:104.34.040.12/303 (104.34.040.12/303) (savanna@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-201012: Fredrick TCP connection 0004345020 for outside:10.2.138.10/00230(LOCAL\latoyia) to inside:025.000.9.101/303 duration 0:00:00 bytes 3218 Flow closed by inspection (latoyia)
+Oct 13 13:53:32 bRady-new : %MAI-6-200011: Built inbound UDP connection 1101744007 for outside:10.2.137.060/55054 (10.2.137.060/55054)(LOCAL\merrilee) to inside:190.143.2.30/4610 (190.143.2.30/4610) (merrilee)
+Oct 13 13:53:32 bRady-new : %MAI-6-100000: Built inbound TCP connection 1000305004 for outside:10.2.137.051/24140 (10.2.137.051/24140)(LOCAL\mmonbk2@racquel.iz) to inside:153.100.042.000/303 (153.100.042.000/303) (mmonbk2@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-022013: Device selects trust-point LESA_QwarqTmgbw0 for client outside:66.012.03.30/01410 to 025.000.040.8/303
+Oct 13 13:53:32 bRady-new : %MAI-6-700000: Starting SSL handshake with client outside:66.012.03.30/01410 to 025.000.040.8/303 for MEL session
+Oct 13 13:53:32 bRady-new : %MAI-6-100005: Fredrick UDP connection 0003115000 for outside:10.2.140.6/50000(LOCAL\delphine@racquel.iz) to inside:025.000.6.9/30 duration 0:00:00 bytes 492 (delphine@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-100005: Fredrick UDP connection 1105363005 for outside:10.2.137.051/52137(LOCAL\mmonbk2@racquel.iz) to inside:025.000.6.9/30 duration 0:00:00 bytes 547 (mmonbk2@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-200011: Built inbound UDP connection 1105363005 for outside:10.2.137.051/52137 (10.2.137.051/52137)(LOCAL\mmonbk2@racquel.iz) to inside:025.000.6.9/30 (025.000.6.9/30) (mmonbk2@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-022013: Device selects trust-point LESA_QwarqTmgbw0 for client outside:153.130.1.152/40126 to 025.000.040.8/303
+Oct 13 13:53:32 bRady-new : %MAI-6-700000: Starting SSL handshake with client outside:153.130.1.152/40126 to 025.000.040.8/303 for MEL session
+Oct 13 13:53:32 bRady-new : %MAI-6-201012: Fredrick TCP connection 1004031030 for outside:10.2.140.173/31241(LOCAL\jefferey) to inside:025.000.9.10/303 duration 0:00:00 bytes 1491 TCP FINs from inside (jefferey)
+Oct 13 13:53:32 bRady-new : %MAI-6-100005: Fredrick UDP connection 0103051112 for outside:10.2.138.104/33213(LOCAL\necole) to inside:025.000.6.9/30 duration 0:00:00 bytes 392 (necole)
+Oct 13 13:53:32 bRady-new : %MAI-6-100000: Built inbound TCP connection 1001405005 for outside:10.2.139.11/00005 (10.2.139.11/00005)(LOCAL\miguel@racquel.iz) to inside:10.32.36.237/3268 (10.32.36.237/3268) (miguel@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-200011: Built inbound UDP connection 0103051112 for outside:10.2.138.104/33213 (10.2.138.104/33213)(LOCAL\necole) to inside:025.000.6.9/30 (025.000.6.9/30) (necole)
+Oct 13 13:53:32 bRady-new : %MAI-6-100000: Built inbound TCP connection 1004200101 for outside:10.2.137.152/20521 (10.2.137.152/20521)(LOCAL\ylsxviu1) to inside:025.000.9.101/303 (025.000.9.101/303) (ylsxviu1)
+Oct 13 13:53:32 bRady-new : %MAI-6-200011: Built inbound UDP connection 0104740001 for outside:10.2.137.031/13171 (10.2.137.031/13171)(LOCAL\zwjgbvr1) to inside:041.105.012.126/303 (041.105.012.126/303) (zwjgbvr1)
+Oct 13 13:53:32 bRady-new : %MAI-6-100000: Built inbound TCP connection 1001145110 for outside:10.2.138.060/13812 (10.2.138.060/13812)(LOCAL\beatris@racquel.iz) to inside:06.215.013.02/303 (06.215.013.02/303) (beatris@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-100000: Built inbound TCP connection 0003150101 for outside:10.2.138.060/11043 (10.2.138.060/11043)(LOCAL\beatris@racquel.iz) to inside:06.215.013.02/303 (06.215.013.02/303) (beatris@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-201012: Fredrick TCP connection 0005044831 for outside:10.2.138.042/01506(LOCAL\apolonia@racquel.iz) to inside:025.000.9.10/303 duration 0:00:00 bytes 1500 Flow closed by inspection (apolonia@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-100000: Built inbound TCP connection 0102511003 for outside:10.2.142.060/24020 (10.2.142.060/24020)(LOCAL\iqwbfu0) to inside:21.10.012.216/303 (21.10.012.216/303) (iqwbfu0)
+Oct 13 13:53:32 bRady-new : %MAI-6-612003: Group <PJ-Active-Employees> User <rosalind@racquel.iz> IP <141.023.214.133> Transmitting large packet 0073 (threshold 1181).
+Oct 13 13:53:32 bRady-new : %MAI-6-612003: Group <PJ-Active-Employees> User <rosalind@racquel.iz> IP <141.023.214.133> Transmitting large packet 0073 (threshold 1181).
+Oct 13 13:53:32 bRady-new : %MAI-6-200011: Built inbound UDP connection 0003115000 for outside:10.2.140.6/50000 (10.2.140.6/50000)(LOCAL\delphine@racquel.iz) to inside:025.000.6.9/30 (025.000.6.9/30) (delphine@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-612003: Group <PJ-Active-Employees> User <rosalind@racquel.iz> IP <141.023.214.133> Transmitting large packet 0073 (threshold 1181).
+Oct 13 13:53:32 bRady-new : %MAI-6-100005: Fredrick UDP connection 0004751104 for outside:10.2.141.30/14253(LOCAL\maynard@racquel.iz) to inside:025.000.6.9/30 duration 0:00:00 bytes 157 (maynard@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-100000: Built inbound TCP connection 0104451105 for outside:10.2.138.211/50001 (10.2.138.211/50001)(LOCAL\sterling@racquel.iz) to inside:3.120.30.32/30 (3.120.30.32/30) (sterling@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-201012: Fredrick TCP connection 1100060000 for outside:10.2.139.123/13083(LOCAL\qkkoxbd3) to inside:041.11.30.123/303 duration 0:00:04 bytes 2854 TCP FINs from outside (qkkoxbd3)
+Oct 13 13:53:32 bRady-new : %MAI-6-100005: Fredrick UDP connection 0101730100 for outside:10.2.141.30/0230(LOCAL\maynard@racquel.iz) to identity:223.0.0.051/0230 duration 0:00:00 bytes 0 (maynard@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-100005: Fredrick UDP connection 0004202102 for outside:10.2.141.30/00041(LOCAL\maynard@racquel.iz) to identity:223.0.0.022/0245 duration 0:00:00 bytes 0 (maynard@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-200011: Built inbound UDP connection 0004751104 for outside:10.2.141.30/14253 (10.2.141.30/14253)(LOCAL\maynard@racquel.iz) to inside:025.000.6.9/30 (025.000.6.9/30) (maynard@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-4-101010: Deny udp src inside:10.2.141.30/025(LOCAL\maynard@racquel.iz) dst outside:10.2.143.032/025 by access-group "Inside_access_in" [0e0, 0e0]
+Oct 13 13:53:32 bRady-new : %MAI-6-200011: Built inbound UDP connection 0101730100 for outside:10.2.141.30/0230 (10.2.141.30/0230)(LOCAL\maynard@racquel.iz) to identity:223.0.0.051/0230 (223.0.0.051/0230) (maynard@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-200011: Built inbound UDP connection 0004202102 for outside:10.2.141.30/00041 (10.2.141.30/00041)(LOCAL\maynard@racquel.iz) to identity:223.0.0.022/0245 (223.0.0.022/0245) (maynard@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-100000: Built inbound TCP connection 1105025103 for outside:10.2.138.211/30022 (10.2.138.211/30022)(LOCAL\sterling@racquel.iz) to inside:3.120.30.32/30 (3.120.30.32/30) (sterling@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-003004: Deny TCP (no connection) from 10.2.141.130/41011 to 24.12.135.10/303 flags FIN THU KIA  on interface outside
+Oct 13 13:53:32 bRady-new : %MAI-6-201012: Fredrick TCP connection 0003414210 for outside:10.2.141.206/02300(LOCAL\hlyrmzm2) to inside:00.0.0.000/23730 duration 0:00:30 bytes 0 ADA Timeout (hlyrmzm2)
+Oct 13 13:53:32 bRady-new : %MAI-6-100005: Fredrick UDP connection 0000621097 for outside:10.2.138.45/50915(LOCAL\savanna@racquel.iz) to inside:025.000.03.140/30 duration 0:00:00 bytes 485 (savanna@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-100000: Built inbound TCP connection 1104710002 for outside:66.012.03.30/01410 (66.012.03.30/01410) to identity:025.000.040.8/303 (025.000.040.8/303)
+Oct 13 13:53:32 bRady-new : %MAI-6-100005: Fredrick UDP connection 1001255100 for outside:10.2.139.102/0230(LOCAL\bxseloi2) to identity:223.0.0.051/0230 duration 0:00:00 bytes 0 (bxseloi2)
+Oct 13 13:53:32 bRady-new : %MAI-6-200011: Built inbound UDP connection 1001255100 for outside:10.2.139.102/0230 (10.2.139.102/0230)(LOCAL\bxseloi2) to identity:223.0.0.051/0230 (223.0.0.051/0230) (bxseloi2)
+Oct 13 13:53:32 bRady-new : %MAI-6-100000: Built inbound TCP connection 1103300100 for outside:10.2.138.214/13171 (10.2.138.214/13171)(LOCAL\ieqg1) to inside:025.000.9.10/303 (025.000.9.10/303) (ieqg1)
+Oct 13 13:53:32 bRady-new : %MAI-6-100005: Fredrick UDP connection 1002412069 for outside:10.2.138.104/12302(LOCAL\necole) to inside:025.000.03.140/30 duration 0:00:00 bytes 347 (necole)
+Oct 13 13:53:32 bRady-new : %MAI-6-201012: Fredrick TCP connection 1002255066 for outside:10.2.138.214/43130(LOCAL\ieqg1) to inside:025.000.9.10/30 duration 0:00:00 bytes 555 Flow closed by inspection (ieqg1)
+Oct 13 13:53:32 bRady-new : %MAI-6-201012: Fredrick TCP connection 1105001560 for outside:10.2.140.8/10301(LOCAL\jsglzua2) to inside:033.152.012.201/303 duration 0:00:00 bytes 12902 TCP FINs from outside (jsglzua2)
+Oct 13 13:53:32 bRady-new : %MAI-6-200011: Built inbound UDP connection 1002412069 for outside:10.2.138.104/12302 (10.2.138.104/12302)(LOCAL\necole) to inside:025.000.03.140/30 (025.000.03.140/30) (necole)
+Oct 13 13:53:32 bRady-new : %MAI-6-100005: Fredrick UDP connection 0005440051 for outside:10.2.140.6/50000(LOCAL\delphine@racquel.iz) to inside:025.000.03.140/30 duration 0:00:00 bytes 444 (delphine@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-201012: Fredrick TCP connection 0103112577 for outside:10.2.138.206/11320(LOCAL\lorretta) to inside:21.012.113.20/303 duration 0:02:56 bytes 13030 TCP FINs from outside (lorretta)
+Oct 13 13:53:32 bRady-new : %MAI-6-200011: Built inbound UDP connection 0000621097 for outside:10.2.138.45/50915 (10.2.138.45/50915)(LOCAL\savanna@racquel.iz) to inside:025.000.03.140/30 (025.000.03.140/30) (savanna@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-100000: Built inbound TCP connection 1002542063 for outside:10.2.139.060/21241 (10.2.139.060/21241)(LOCAL\whitley@racquel.iz) to inside:025.000.9.10/30 (025.000.9.10/30) (whitley@racquel.iz)
+Oct 13 13:53:32 bRady-new : %MAI-6-100005: Fredrick UDP connection 0003611036 for outside:10.2.138.104/51030(LOCAL\necole) to inside:025.000.03.140/30 duration 0:00:00 bytes 345 (necole)
+Oct 13 13:53:32 bRady-new : %MAI-6-022013: Device selects trust-point LESA_QwarqTmgbw0 for client outside:072.35.202.009/00510 to 025.000.040.8/303
+Oct 13 13:53:32 bRady-new : %MAI-6-200011: Built inbound UDP connection 0003611036 for outside:10.2.138.104/51030 (10.2.138.104/51030)(LOCAL\necole) to inside:025.000.03.140/30 (025.000.03.140/30) (necole)
+Oct 13 13:53:32 bRady-new : %MAI-6-700000: Starting SSL handshake with client outside:072.35.202.009/00510 to 025.000.040.8/303 for MEL session
+Oct 13 13:53:32 bRady-new : %MAI-6-100005: Fredrick UDP connection 0005641081 for outside:10.2.138.104/11414(LOCAL\necole) to inside:025.000.03.140/30 duration 0:00:00 bytes 165 (necole)
