@@ -37,7 +37,6 @@ def firstTrue(boolArr):
         if boolArr[i] == True:
             return i
 def recluster(x,y,silVal, itera): #Recluster based on silhouette coefficient (i.e whichever node here has a higher coefficient)
-    print(itera)
     if silVal[int(itera[0])] > silVal[int(itera[1])]:
         return x
     else:
@@ -56,24 +55,41 @@ def checkClus(x,y):
 def consensus(x,y,labels,silVal,itera,silVal1): #form boolean array from checkClus, if majority are true then the node should be in the cluster, otherwise not
     boolArr=checkClus(x,y)
     trueCount, total,first = sum(boolArr), len(boolArr), firstTrue(boolArr)
-    if (trueCount)/(total) > 0.5:
+    if (trueCount)/(total) == 1:
         #pass vote of node being in cluster
-        if (boolArr[0] == False): #when consensus is passed but what our clustering is based on does not agree
-            print("did not fully pass")
-            ind1 = lookUp(labels,x[first],first)#need to sort this out such that we determine if the nearest nodes value is better
-            ind2 = lookUp(labels,x[0],0)#or if the current nodes value is better
-            ind3 = lookUp(labels,y[0],0)
-            firstValList = np.intersect1d(ind1, ind2, assume_unique=False, return_indices=False)
-            x1 = np.shape(firstValList)
-            secondValList = np.intersect1d(ind1, ind3, assume_unique=False, return_indices=False)
-            x2 = np.shape(secondValList)
-            if x1 > x2: #determine which node classification is agreed on more
-                print("replacing "+ str(x[0]) +" with "+ str(x[0]) + " at "+str(itera))
-                return True, x[0]
-            else:
-                print("replacing "+ str(x[0]) +" with "+ str(y[0])+ " at "+str(itera))
-                return True, y[0]
+        #if (boolArr[0] == False): #when consensus is passed but what our clustering is based on does not agree
+            #print("did not fully pass")
+            #ind1 = lookUp(labels,x[first],first)#need to sort this out such that we determine if the nearest nodes value is better
+            #ind2 = lookUp(labels,x[0],0)#or if the current nodes value is better
+            #ind3 = lookUp(labels,y[0],0)
+            #firstValList = np.intersect1d(ind1, ind2, assume_unique=False, return_indices=False)
+            #x1 = np.shape(firstValList)
+            #secondValList = np.intersect1d(ind1, ind3, assume_unique=False, return_indices=False)
+            #x2 = np.shape(secondValList)
+            #if x1 > x2: #determine which node classification is agreed on more
+                #print("replacing "+ str(x[0]) +" with "+ str(x[0]) + " at "+str(itera))
+                #return True, x[0]
+            #else:
+                #print("replacing "+ str(x[0]) +" with "+ str(y[0])+ " at "+str(itera))
+                #return True, y[0]
             #return True, recluster(x[0],y[0],silVal1,itera)
+        return True, x[0]
+    elif (trueCount)/(total) > 0 and (boolArr[0] == False): #when consensus is passed but what our clustering is based on does not agree
+        print("did not fully pass")
+        ind1 = lookUp(labels,x[first],first)#need to sort this out such that we determine if the nearest nodes value is better
+        ind2 = lookUp(labels,x[0],0)#or if the current nodes value is better
+        ind3 = lookUp(labels,y[0],0)
+        firstValList = np.intersect1d(ind1, ind2, assume_unique=False, return_indices=False)
+        x1 = np.shape(firstValList)
+        secondValList = np.intersect1d(ind1, ind3, assume_unique=False, return_indices=False)
+        x2 = np.shape(secondValList)
+        if x1 > x2: #determine which node classification is agreed on more
+            print("replacing "+ str(x[0]) +" with "+ str(x[0]) + " at "+str(itera))
+            return True, x[0]
+        else:
+            print("replacing "+ str(x[0]) +" with "+ str(y[0])+ " at "+str(itera))
+            return True, y[0]
+    elif (boolArr[0] == True):
         return True, x[0]
     else:
         print("failed!")
@@ -87,7 +103,9 @@ def comprehension(X,labels,x,itera,silVal):
     lb.append(labels[0][itera])
     lb.append(labels[1][itera])
     lb.append(labels[2][itera])
-    labelsed = (np.reshape(np.array(labels),(-1,3))).tolist()
+    lb.append(labels[3][itera])
+    lb.append(labels[4][itera])
+    labelsed = (np.reshape(np.array(labels),(-1,5))).tolist()
     labs = labels
     it = list()
     if itera > 0:
@@ -103,6 +121,10 @@ def comprehension(X,labels,x,itera,silVal):
     else: #recluster somehow
         print("Failed - reclustering")
         return int(res1)
+
+    
+
+    
 
     
 
