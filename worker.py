@@ -30,15 +30,6 @@ def nearest(x, y_row, neighbors, labels): #specify number of neighbours to retur
         iteraList.append(distances[i][len(distances[i])-1])
     return neighborsList,neighborsLabels,iteraList
     
-def lookUp(labels, lookup, which):
-    arr = np.array(labels)
-    x,y = np.shape(arr)
-    indices = np.argwhere(arr[which] == lookup)
-    return indices
-def firstTrue(boolArr):
-    for i in range(len(boolArr)):
-        if boolArr[i] == True:
-            return i
 def recluster(x,y,itera,labels,X): #Recluster based on silhouette coefficient (i.e whichever node here has a higher coefficient)
     acL = labels[0]
     acL[itera] = x
@@ -50,41 +41,8 @@ def recluster(x,y,itera,labels,X): #Recluster based on silhouette coefficient (i
         return y
     else:
         return x
-def isEqual(x,y):
-    if x == y:
-        return True
-    else:
-        return False
 
-#Current and nearest are same cluster then true otherwise false
-def checkClus(x,y):#check all nodes are of the same array
-    ret = list()
-    for i in range(3):
-        boolArr = list(map(isEqual, x, y[i]))
-        ret.append(boolArr)
-    return ret
-    
-def equalRow(boolArr, rowNum):
-    for i in range(5):
-        if boolArr[i][rowNum] == False:
-            return False
-    return True
 
-def counting(boolArr,rowNum):
-    count = 0
-    indices = list()
-    for x in range(3):
-        if boolArr[x][rowNum] == True:
-            count = count+1
-        else:
-            indices.append(x)
-    return count,indices
-
-def vote(a,h):
-    if a < 3 and h < 3: #if majority of nodes are in another cluster
-        return False
-    else:
-        return True
 
 def consensus(x,y,labels,silVal,itera,acLookUpList,hdbLookUpList,X): #form boolean array from checkClus, if majority are true then the node should be in the cluster, otherwise not
     #x is the labels of our node
@@ -95,9 +53,9 @@ def consensus(x,y,labels,silVal,itera,acLookUpList,hdbLookUpList,X): #form boole
     #Then we have our two lookup lists where index corresponds to that algos cluster, and the value is the k means equivalent
     
     #First step - translate the lists
-    klabels = [x[0],y[0][0],y[1][0],y[2][0],y[3][0],y[4][0]]
-    acLabels = [acLookUpList[int(y[0][1])],acLookUpList[int(y[1][1])],acLookUpList[int(y[2][1])],acLookUpList[int(y[3][1])],acLookUpList[int(y[4][1])]]
-    hdbLabels = [hdbLookUpList[int(y[0][2])],hdbLookUpList[int(y[1][2])],hdbLookUpList[int(y[2][2])],hdbLookUpList[int(y[3][2])],hdbLookUpList[int(y[4][2])]]    
+    klabels = [x[0],y[0][0],y[1][0],y[2][0]]#,y[3][0],y[4][0]]
+    acLabels = [acLookUpList[int(y[0][1])],acLookUpList[int(y[1][1])],acLookUpList[int(y[2][1])],acLookUpList[int(y[3][1])],acLookUpList[int(y[4][1])],acLookUpList[int(y[5][1])],acLookUpList[int(y[6][1])]]
+    hdbLabels = [hdbLookUpList[int(y[0][2])],hdbLookUpList[int(y[1][2])],hdbLookUpList[int(y[2][2])],hdbLookUpList[int(y[3][2])],hdbLookUpList[int(y[4][2])],hdbLookUpList[int(y[5][2])],hdbLookUpList[int(y[6][2])]]    
     #Operating with the assumption that x is in the same cluster for each node
     #Second step - determine if majority of nodes are in the same array as that of x in the k means algorithm
     #As we have 5 neighbours anything less than 3 in the same cluster is a minority - thus we recluster here
@@ -138,7 +96,7 @@ def comprehension(X,labels,x,itera,silVal,acLookUpList,hdbLookUpList):
     X = np.delete(X,itera, axis = 0)
     labels = np.delete(labels,itera, axis = 1)
     silValed = np.delete(silVal,itera, axis = 0)
-    near, tempLab,inds = nearest(X, x, 5, labels)
+    near, tempLab,inds = nearest(X, x, 7, labels)
     it.append(itera)
     it.extend(inds)
     print(it)
