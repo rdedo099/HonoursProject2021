@@ -1,5 +1,5 @@
 # HonoursProject2021
-Honours Project 2021
+Honours Project 2021 - Implementation of a KNN Consensus Clustering Algorithm Based On the K Means Algorithm
 
 Steps for running code:
 
@@ -18,3 +18,7 @@ Steps for running code:
 -In jupyter notebook run the generate logs ipynb file
 
 -Now any of the clustering ipynb files will work and cluster the generated data accordingly
+
+
+This algorithm utilizes supporting algorithms which are the agglomerative and HDBScan algorithms.
+Full report is included in the repository.
