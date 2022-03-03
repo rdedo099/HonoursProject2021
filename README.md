@@ -1,6 +1,3 @@
-
-<!-- PROJECT LOGO -->
-<br />
 <div align="center">
 <a href="https://github.com/rdedo099/HonoursProject2021">
 <img src="images/cluster.svg" alt="Logo" width="120" height="100">
@@ -10,8 +7,8 @@
 </div>
 <div>
 <p>
-  <br/>
-Steps for running code:
+<br/>
+Steps for running the code:
 
 1. Download and unzip repository
 
