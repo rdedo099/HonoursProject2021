@@ -1,4 +1,4 @@
-# HonoursProject2021
+# Honours Project 2021
 Honours Project 2021 - Implementation of a KNN Consensus Clustering Algorithm Based On the K Means Algorithm
 
 Steps for running code:
