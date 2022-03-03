@@ -9,54 +9,27 @@
 
   <p align="center">
     Honours Project 2021 - Implementation of a KNN Consensus Clustering Algorithm Based On the K Means Algorithm
-
+  </p>
+  <p align="left">
 Steps for running code:
 
--Download and unzip repository
+ 1.Download and unzip repository
 
--Open cmd
+2. Open cmd
 
--Install jupyter notebook with pip install jupyter
+3. Install jupyter notebook with pip install jupyter
 
--In the file location of the repository open cmd
+4. In the file location of the repository open cmd
 
--Run the notebook with python -m notebook
+5. Run the notebook with python -m notebook
 
--Run the required setup file within the repsoitory
+6. Run the required setup file within the repsoitory
 
--In jupyter notebook run the generate logs ipynb file
+7. In jupyter notebook run the generate logs ipynb file
 
--Now any of the clustering ipynb files will work and cluster the generated data accordingly
+<b>Now any of the clustering ipynb files will work and cluster the generated data accordingly. </b>
 
-
-This algorithm utilizes supporting algorithms which are the agglomerative and HDBScan algorithms.
-Full report is included in the repository.
+<i>Note: This algorithm utilizes supporting algorithms which are the agglomerative and HDBScan algorithms.
+  Full report is included in the repository.</i>
   </p>
 </div>
-
-
-
-# Honours Project 2021
-Honours Project 2021 - Implementation of a KNN Consensus Clustering Algorithm Based On the K Means Algorithm
-
-Steps for running code:
-
--Download and unzip repository
-
--Open cmd
-
--Install jupyter notebook with pip install jupyter
-
--In the file location of the repository open cmd
-
--Run the notebook with python -m notebook
-
--Run the required setup file within the repsoitory
-
--In jupyter notebook run the generate logs ipynb file
-
--Now any of the clustering ipynb files will work and cluster the generated data accordingly
-
-
-This algorithm utilizes supporting algorithms which are the agglomerative and HDBScan algorithms.
-Full report is included in the repository.
