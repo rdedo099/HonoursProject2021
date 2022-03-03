@@ -1,19 +1,19 @@
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/rdedo099/HonoursProject2021">
-    <img src="images/cluster.svg" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">KNN Consensus Clustering Algorithm</h3>
-
-  <p align="center">
-    Honours Project 2021 - Implementation of a KNN Consensus Clustering Algorithm Based On the K Means Algorithm
-  </p>
-  <p align="left">
+<a href="https://github.com/rdedo099/HonoursProject2021">
+<img src="images/cluster.svg" alt="Logo" width="120" height="100">
+</a>
+<h2>KNN Consensus Clustering Algorithm</h3>
+<h4>Honours Project 2021 - Implementation of a KNN Consensus Clustering Algorithm Based On the K Means Algorithm</h4>
+</div>
+<div>
+<p>
+  <br/>
 Steps for running code:
 
- 1.Download and unzip repository
+1. Download and unzip repository
 
 2. Open cmd
 
@@ -29,7 +29,6 @@ Steps for running code:
 
 <b>Now any of the clustering ipynb files will work and cluster the generated data accordingly. </b>
 
-<i>Note: This algorithm utilizes supporting algorithms which are the agglomerative and HDBScan algorithms.
-  Full report is included in the repository.</i>
-  </p>
+<i>Note: This algorithm utilizes supporting algorithms which are the agglomerative and HDBScan algorithms. Full report is included in the repository.</i>
+</p>
 </div>
